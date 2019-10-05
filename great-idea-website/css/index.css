@@ -105,9 +105,17 @@ header nav {
 header nav a{
 	color: gray;
 	text-decoration: none;
-	margin: 0 3% 0 2%;
+	margin-right: 5%;
+	margin-left: 2%;
 
 
+}
+header nav img {
+	position: relative;
+	right: 0;
+	vertical-align: baseline;
+	top: 6%;
+	right: 0;
 }
 
 
@@ -144,10 +152,7 @@ header nav .logo img{
 	
 	
 }
-header img{
-	display: inline-block;
-	
-}
+
 
 header button{
 	display: block;
@@ -187,18 +192,18 @@ header button{
 	
 }
 
-#jumbo right img {
+#jumbo-right img {
 	box-sizing: border-box;
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 10%;
-	margin-bottom: 2%;
+	margin-bottom: 20%;
 	
 }
 
 
 .middle-img{
-	box-sizing: border-content;
+	box-sizing: border-box;
 	display: inline-block;
 	width: 100%;
 }
@@ -207,20 +212,17 @@ body>section{
 	
 }
 
-hr{
-	display: block;
-}
 
-#first2sections{
-	clear: both;
-}
+
+
 
 #first-section{
 	display: block;
 	border-top: 1px solid gray; 
 	color: black;
 	margin-bottom: 3%;
-	
+	clear: both;
+
 	
 	
 
@@ -230,17 +232,17 @@ hr{
 
 #first-section-left{
 	display: inline-block;
-	width: 45%;
+	width: 46%;
 	color: black;
-	margin-top: 3%;
-
+	margin-top: 5%;
+	margin-right: 4%;
 }
 
 #first-section-right{
 	display: inline-block;
-	width: 45%;
+	width: 46%;
 	color: black;
-	margin-left: 2%;
+	margin-top: 0%;
 
 }
 
@@ -256,21 +258,23 @@ hr{
 	
 }
 #second-section-left{
-	width: 33%;
+	width: 30%;
 	display: inline-block;
 	color: black;
+	margin-right: 3%;
 
 }
 
 #second-section-middle{
-	width: 33%;
+	width: 30%;
 	display: inline-block;
 	color: black;
+	margin-right: 3%;
 
 }
 
 #second-section-right{
-	width: 33%;
+	width: 30%;
 	display: inline-block;
 	margin-top: 3%;
 	color: black;
