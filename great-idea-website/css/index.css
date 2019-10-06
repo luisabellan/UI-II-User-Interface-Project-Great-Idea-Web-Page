@@ -105,17 +105,14 @@ header nav {
 header nav a{
 	color: gray;
 	text-decoration: none;
-	margin-right: 5%;
+	margin-right: 3%;
 	margin-left: 2%;
 
 
 }
 header nav img {
 	position: relative;
-	right: 0;
 	vertical-align: baseline;
-	top: 6%;
-	right: 0;
 }
 
 
@@ -163,7 +160,6 @@ header button{
 	display: block;
 	color: black;
 	margin: 0 0 0 0;
-	clear: both;
 }
 #jumbo h1{
 	font-size: 400%;
@@ -179,7 +175,7 @@ header button{
 	display: inline-block;
 	vertical-align: bottom;
 	text-align: center;
-	width: 40%;
+	width: 30%;
 	margin-bottom: 10%;
 	
 }
@@ -187,11 +183,14 @@ header button{
 
 
 #jumbo-right{
+	box-sizing: border-box;
 	display: inline-block;
 	vertical-align: baseline;
-	width: 40%;
+	width:60%;
+	max-width: 30%;
+	padding-top: 5%;
 	margin-top: 10%;
-	margin-left: 10%;
+	margin-left: 20%;
 }
 
 #jumbo-right img {
