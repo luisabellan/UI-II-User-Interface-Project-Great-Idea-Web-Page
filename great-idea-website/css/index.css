@@ -162,12 +162,11 @@ header button{
 #jumbo{
 	display: block;
 	color: black;
-	margin: 0 10% 0 5%;
+	margin: 0 0 0 0;
 	clear: both;
-	margin-top: 10%
 }
 #jumbo h1{
-	font-size: 300%;
+	font-size: 400%;
 	text-align: center;
 	
 }
@@ -180,7 +179,8 @@ header button{
 	display: inline-block;
 	vertical-align: bottom;
 	text-align: center;
-	margin: 10%;
+	width: 40%;
+	margin-bottom: 10%;
 	
 }
 
@@ -189,14 +189,15 @@ header button{
 #jumbo-right{
 	display: inline-block;
 	vertical-align: baseline;
-	
+	width: 40%;
+	margin-top: 10%;
+	margin-left: 10%;
 }
 
 #jumbo-right img {
 	box-sizing: border-box;
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 10%;
 	margin-bottom: 20%;
 	
 }
