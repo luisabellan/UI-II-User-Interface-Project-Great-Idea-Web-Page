@@ -71,6 +71,7 @@ body{
 
 
 button{
+	display: block;
 	background-color: white;
 	border: 1px solid black;
 	padding: 3px 25px;
@@ -105,17 +106,12 @@ header nav {
 header nav a{
 	color: gray;
 	text-decoration: none;
-	margin-right: 3%;
-	margin-left: 2%;
+	margin-right: 5%;
+	margin-left: 5%;
 
 
 }
-header nav img {
-	position: relative;
-	vertical-align: baseline;
-}
-
-
+/* stretch animation for a:hovers in the menu*/
 @keyframes border{
 	from{
 		border-bottom: 0px dashed gray;
@@ -139,11 +135,10 @@ header nav a:hover{
 header h1{
 	
 	font-size: 300%;
-	display: inline-block;
+	display: block;
 }
-header nav .logo img{
+header nav img.logo {
 	display: inline-block;
-	vertical-align: middle;
 
 	
 	
@@ -152,7 +147,7 @@ header nav .logo img{
 
 
 header button{
-	display: block;
+	display: inline-block;
 	
 }
 
@@ -183,7 +178,7 @@ header button{
 
 
 #jumbo-right{
-	box-sizing: border-box;
+	
 	display: inline-block;
 	vertical-align: baseline;
 	width:60%;
@@ -194,7 +189,7 @@ header button{
 }
 
 #jumbo-right img {
-	box-sizing: border-box;
+	
 	display: inline-block;
 	vertical-align: middle;
 	margin-bottom: 20%;
@@ -203,7 +198,6 @@ header button{
 
 
 .middle-img{
-	box-sizing: border-box;
 	display: inline-block;
 	width: 100%;
 }
