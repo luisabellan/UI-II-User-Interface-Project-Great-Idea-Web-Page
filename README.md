@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 Full Name : Jesus Luis Abellan Matilla
+=======
+-- Fullname: Jesus Luis Abellan Matilla -- 
+
+>>>>>>> 746abedac08928d40c1a9d303f61e218a4581903
 
 # User Interface Project: Great Idea Web Page
 
